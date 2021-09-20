@@ -18,110 +18,101 @@
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"></p>
+
   </header>
   <div class="container-fluid">
 
     <!-- Timeblocks go here -->
 
     <!--9 AM-->
-    <div class="row hour" id="9am">
-      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1" id="9amHour" value="9" border-primary time-block";">9:00 AM
+    <div class="row time-block" id="hour9">
+      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 hour">
+        9 AM
       </div>
-      <textarea id="9" class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
+      <textarea class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
         placeholder="Type Notes Here"></textarea>
-      <button id="9amSAVEbtn" data-hour=9 type="button" class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn"><img
-          src="assets/svg/document.svg" alt="Save File" class="icon"></button>
+      <button class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn fas fa-save"></button>
     </div>
 
     <!--10 AM-->
-    <div class="row hour" id="10am">
-      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1" id="10amHour" value="10" border-primary time-block";">10:00
-        AM
+    <div class="row time-block" id="hour10">
+      <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1">
+        10 AM
       </div>
       <textarea id="10" class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
         placeholder="Type Notes Here"></textarea>
-      <button id="10amSAVEbtn" data-hour=10 type="button" class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn"><img
-          src="assets/svg/document.svg" alt="Save File" class="icon"></button>
+      <button class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn fas fa-save"></button>
     </div>
 
     <!--11 AM-->
-    <div class="row hour" id="11am">
-      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1" id="11amHour" value="11" border-primary time-block";">11:00
-        AM
+    <div class="row time-block" id="hour10-1">
+      <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1">
+        11 AM
       </div>
       <textarea id="11" class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
         placeholder="Type Notes Here"></textarea>
-      <button id="11amSAVEbtn" data-hour=11 type="button" class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn"><img
-          src="assets/svg/document.svg" alt="Save File" class="icon"></button>
+      <button class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn fas fa-save"></button>
     </div>
 
     <!--12 PM-->
-    <div class="row hour" id="12pm">
-      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1" id="12pmHour" value="12" border-primary time-block";">12:00
-        PM
+    <div class="row time-block" id="hour12">
+      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1">
+        12 PM
       </div>
       <textarea id="12" class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
         placeholder="Type Notes Here"></textarea>
-      <button id="12pmSAVEbtn" data-hour=9 type="button" class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn"><img
-          src="assets/svg/document.svg" alt="Save File" class="icon"></button>
+      <button class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn fas fa-save"></button>
     </div>
 
     <!--1 PM-->
-    <div class="row hour" id="1pm">
-      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1" id="1pmHour" value="1" border-primary time-block";">1:00 PM
+    <div class="row time-block" id="hour13">
+      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1">
+        1 PM
       </div>
-      <textarea id="1" class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
+      <textarea class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
         placeholder="Type Notes Here"></textarea>
-      <button id="1pmSAVEbtn" data-hour=1 type="button" class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn"><img
-          src="assets/svg/document.svg" alt="Save File" class="icon"></button>
+      <button class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn fas fa-save"></button>
     </div>
 
     <!--2 PM-->
-    <div class="row hour" id="2pm">
-      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1" id="2pmHour" value="2" border-primary time-block";">2:00 PM
+    <div class="row time-block" id="hour14">
+      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1">
+        2 PM
       </div>
-      <textarea id="2" class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
-        placeholder="Type Notes Here"></textarea>
-      <button id="2pmSAVEbtn" data-hour=9 type="button" class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn"><img
-          src="assets/svg/document.svg" alt="Save File" class="icon"></button>
+      <textarea class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description" placeholder="Type Notes Here"></textarea>
+      <button class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn fas fa-save"></button>
     </div>
 
     <!--3 PM-->
-    <div class="row hour" id="3pm">
-      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1" id="3pmHour" value="3" border-primary time-block";">3:00 PM
+    <div class="row time-block" id="hour15">
+      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1">
+        3 PM
       </div>
-      <textarea id="3" class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
+      <textarea id="3" class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description"
         placeholder="Type Notes Here"></textarea>
-      <button id="3pmSAVEbtn" data-hour=3 type="button" class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn"><img
-          src="assets/svg/document.svg" alt="Save File" class="icon"></button>
+      <button class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn fas fa-save"></button>
     </div>
 
     <!--4 PM-->
-    <div class="row hour" id="4pm">
-      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1" id="4pmHour" value="4" border-primary time-block";">4:00 PM
+    <div class="row time-block" id="hour16">
+      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1">
+        4 PM
       </div>
-      <textarea id="4" class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
-        placeholder="Type Notes Here"></textarea>
-      <button id="4pmSAVEbtn" data-hour=4 type="button" class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn"><img
-          src="assets/svg/document.svg" alt="Save File" class="icon"></button>
+      <textarea class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description" placeholder="Type Notes Here"></textarea>
+      <button class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn fas fa-save"></button>
     </div>
 
     <!--5 PM-->
-    <div class="row hour" id="5pm">
-      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1" id="5pmHour" value="5" border-primary time-block";">5:00 PM
+    <div class="row time-block" id="hour17">
+      <div class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1">
+        5 PM
       </div>
-      <textarea id="5" class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
+      <textarea class="col-sm-12 col-md-10 col-lg-10 col-xl-10 description textarea border"
         placeholder="Type Notes Here"></textarea>
-      <button id="5pmSAVEbtn" data-hour=5 type="button" class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn"><img
-          src="assets/svg/document.svg" alt="Save File" class="icon"></button>
+      <button class="col-sm-1 col-md-1 col-lg-1 btn col-xl-1 saveBtn fas fa-save"></button>
     </div>
 
 
-    <div class="row bg-dark">
-    </div>
-    <div class="row bg-danger">
-
-    </div>
 
 
 
@@ -129,8 +120,8 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="https://jquery.ui.touch-punch.min.js"></script>
-  <script>$('#widget').draggable();</script>
+  <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>

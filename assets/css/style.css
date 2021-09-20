@@ -21,6 +21,8 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+/*time block styling elements*/
+
 .description {
   white-space: pre-wrap;
 }
@@ -35,6 +37,8 @@ textarea {
   height: 80px;
   border-top: 1px solid white;
 }
+
+/*time block styling elements for JS*/
 
 .hour {
   background-color: #ffffff;
