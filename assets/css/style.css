@@ -1,3 +1,4 @@
+/*Body, header and text-area styling tags*/
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -21,7 +22,7 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-/*time block styling elements*/
+/*Main content, time block styling elements*/
 
 .description {
   white-space: pre-wrap;
@@ -76,6 +77,7 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-.icon {
-  width: 20px;
+/*Footer section*/
+footer {
+  margin-top: 20px;
 }
